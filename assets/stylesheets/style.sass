@@ -1,0 +1,55 @@
+// brand variables
+
+// font variables
+
+$font-title: dense
+$font-text: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+$font-mono: "Courier New", Courier, monospace
+$base-font-size: 30px !default
+
+// color variables
+
+$color-bg: white
+$color-text: black
+$color-title: black
+$color-link: grey
+$color-link-hover: lighten($color-link, 20%)
+$button: transparent
+$button-hover: transparent
+$button-border: white
+$button-border-hover: white
+$button-text: black
+$button-text-hover: white
+$color-select: #b3d4fc
+$color-accent: $color-select
+
+// function variables
+
+$prefixes: webkit moz ms o spec
+$legacy_support_for_ie: false !default
+
+// animation variables (only work when animation module is activated)
+
+$animation-duration: 1s !default
+$animation-function: ease !default
+$animation-delay: 0.2s !default
+$animation-count: 1 !default
+$animation-fill: both !default
+$animation-visibility: hidden !default
+
+// codecode imports
+
+@import base
+@import typography
+@import animation
+@import forms
+@import devices
+
+// per project imports
+
+@import category
+
+// @import 'bgs'
+@import layout
+@import legend
+@import vector
